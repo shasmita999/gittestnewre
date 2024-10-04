@@ -7,6 +7,8 @@ resources:
     dependencies: 
       - path: /Dev/src
         type: javaClasspath
+  - name: _google_com_af9.ma
+    type: moeb.applicationPackage
   - name: _google_com_c25.ma
     type: moeb.applicationPackage
   - name: src
@@ -31,7 +33,7 @@ resources:
       type: com.ibm.rational.test.lt.lttest
       uid: A1EF759901432B40C283B73863643532
     dependencies: 
-      - path: /Dev/_google_com_c25.ma
+      - path: /Dev/_google_com_af9.ma
         type: test#moeb.applicationPackage
       - path: /Dev/test(2).recsession
         type: testRecsession
